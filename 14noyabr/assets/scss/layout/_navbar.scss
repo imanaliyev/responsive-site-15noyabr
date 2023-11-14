@@ -1,0 +1,120 @@
+header{
+    background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg);
+
+ 
+    .menu{
+      
+        padding: 5px;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        .menu-shop{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+            h1{
+                font-size: 25px;
+            }
+            .menu-shop-icon{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+               
+                i{
+                    font-size: 24px;
+                    
+                }
+                .menu-zero{
+                    position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        font-weight: bold;
+                        
+                }
+
+        }
+
+        
+        }
+        
+      
+        button{
+            width: 60px;
+            height: 60px;
+            color: beige;
+            background-color: black;
+            border-radius: 10px;
+            border: none;
+            transition: 200ms;
+            &:hover{
+                background-color: rgb(90, 90, 90);
+            }
+        }
+    }
+    nav{
+        display: flex;  
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+        
+        h1{
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+        .navigator{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 35%;
+           
+            a{
+                color: #2c541d;
+            }
+            i{
+                font-size: 28px;
+
+            }
+            .shop-icon{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                &:hover{
+                    color: #2c541d;
+                }
+                cursor: pointer;
+                .zero{
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    font-weight: bold;
+                    
+                }
+                i{
+                    font-size: 30px;
+                }
+            }
+            
+
+        }
+
+    }
+    
+
+}
+@media  screen and (max-width: 900px) {
+     body nav {
+      display: none;
+    }
+    header .menu{
+        display: flex;
+    }
+  }
+ 
